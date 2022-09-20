@@ -1,0 +1,32 @@
+.green_hor {
+  animation: green_hor_ani 3s ease-in-out;
+  height: 5px;
+}
+
+.green_ver {
+  animation: green_ver_ani 3s ease-in-out 3.1s both;
+}
+
+@keyframes green_hor_ani {
+  0% {
+    width: 0%;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    width: 100%;
+  }
+}
+
+@keyframes green_ver_ani {
+  0% {
+    height: 0%;
+    transform: translateY(-100%);
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+    height: 116px;
+    transform: translateY(0);
+  }
+}

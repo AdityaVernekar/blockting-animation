@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.divedit {
+  transform: rotateX(180deg) !important;
+}
